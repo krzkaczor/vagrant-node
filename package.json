@@ -1,0 +1,19 @@
+{
+  "name": "vagrant-playground-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app/app",
+    "dev": "supervisor --debug -e js app/app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "=4.13.4"
+  },
+  "devDependencies": {
+    "supervisor": "=0.9.1"
+  }
+}
